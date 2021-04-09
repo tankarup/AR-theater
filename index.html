@@ -16,6 +16,8 @@
         <a-assets>
             <a-asset-item id="theater-obj" src="theater.obj"></a-asset-item>
             <a-asset-item id="theater-mtl" src="theater.mtl"></a-asset-item>
+            <a-asset-item id="airship-obj" src="airship.obj"></a-asset-item>
+            <a-asset-item id="airship-mtl" src="airship.mtl"></a-asset-item>
         </a-assets>
     <!--
         <a-text
@@ -26,8 +28,9 @@
       ></a-text>
     -->
             <a-obj-model gps-entity-place="latitude: 35.65219; longitude: 139.79185;" src="#theater-obj" mtl="#theater-mtl" scale="1 1 1" position="0 -1 0" rotation="0 315 0"></a-obj-model>
+            <a-obj-model gps-entity-place="latitude: 35.65219; longitude: 139.79185;" src="#theater-obj" mtl="#theater-mtl" scale="1 1 1" position="0 100 0" rotation="0 0 0"></a-obj-model>
         
-            <a-camera id="camera" gps-camera="" rotation-reader> </a-camera>
+            <a-camera id="camera" gps-camera="simulateLatitude:35.65261 ; simulateLongitude:139.79216;" rotation-reader> </a-camera>
     </a-scene>
     <script src="main.js"></script>
 </body>
