@@ -9,3 +9,7 @@ body.addEventListener('touchend', function(event) {
     document.getElementById('camera').setAttribute('gps-camera', '');
     //alert('touchend');
     }, false);
+body.addEventListener('click', function(event) {
+
+    alert('ccc');
+    }, false);
