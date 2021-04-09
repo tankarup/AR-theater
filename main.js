@@ -11,5 +11,5 @@ body.addEventListener('touchend', function(event) {
     }, false);
 body.addEventListener('click', function(event) {
 
-    alert('ccc');
+    //alert('ccc');
     }, false);
