@@ -24,5 +24,5 @@ body.addEventListener('click', function(event) {
     gpscamera.simulateLatitude = lat;
     gpscamera.simulateLongitude = lon;
     document.querySelector("a-camera").setAttribute('gps-camera', gpscamera)
-    alert(document.querySelector("a-camera").getAttribute('gps-camera').positionMinAccuracy);
+    alert(document.querySelector("a-camera").getAttribute('gps-camera').simulateLatitude);
 }, false);
