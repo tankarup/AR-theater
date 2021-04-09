@@ -17,5 +17,12 @@ body.addEventListener('click', function(event) {
     //const camera = document.getElementById('camera');
     //document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
     alert("hoge");
-    alert(document.querySelector("a-camera").getAttribute('gps-camera').simulateLatitude);
+    const lat = simulatingCoords ? 35.65261 : 0 ;
+    const lon = simulatingCoords ? 139.79216 : 0 ;
+    
+    let gpscamera = document.querySelector("a-camera").getAttribute('gps-camera');
+    gpscamera.simulateLatitude = lat;
+    gpscamera.simulateLongitude = lon;
+    document.querySelector("a-camera").setAttribute('gps-camera', gpscamera)
+    alert(gpscamera);
 }, false);
