@@ -16,7 +16,7 @@ body.addEventListener('click', function(event) {
     simulatingCoords = !simulatingCoords;
     //const camera = document.getElementById('camera');
     //document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
-    alert("oge");
+    alert("re");
     const lat = simulatingCoords ? 35.65261 : 0 ;
     const lon = simulatingCoords ? 139.79216 : 0 ;
     
