@@ -13,6 +13,7 @@ body.addEventListener('touchend', function(event) {
 
 let simulatingCoords = false;
 body.addEventListener('click', function(event) {
+/*
     simulatingCoords = !simulatingCoords;
     //const camera = document.getElementById('camera');
     //document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
@@ -25,4 +26,5 @@ body.addEventListener('click', function(event) {
     gpscamera.simulateLongitude = lon;
     document.querySelector("a-camera").setAttribute('gps-camera', gpscamera)
     alert(document.querySelector("a-camera").getAttribute('gps-camera').simulateLatitude);
+*/
 }, false);
