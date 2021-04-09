@@ -1,20 +1,19 @@
 
-/*
+
 const body = document.getElementsByTagName('body')[0];
 //console.log(body);
 body.addEventListener('touchstart', function(event) {
     document.getElementById('camera').setAttribute('gps-camera', `simulateLatitude:35.65261 ; simulateLongitude:139.79216;`);
     //alert('touchstart');
-    }, false);
+}, false);
 body.addEventListener('touchend', function(event) {
     document.getElementById('camera').setAttribute('gps-camera', '');
     //alert('touchend');
-    }, false);
+}, false);
 
 let simulatingCoords = false;
 body.addEventListener('click', function(event) {
     simulatingCoords = !simulatingCoords;
-    document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
-    //alert('ccc');
-    }, false);
-*/
+    //document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
+    alert('simulatingCoords', simulatingCoords);
+}, false);
