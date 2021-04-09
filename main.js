@@ -17,4 +17,5 @@ body.addEventListener('click', function(event) {
     const camera = document.getElementById('camera');
     //document.getElementById('camera').setAttribute('gps-camera', simulatingCoords ? `simulateLatitude:35.65261 ; simulateLongitude:139.79216;` : '');
     alert(camera);
+    alert(document.querySelector("a-camera"));
 }, false);
