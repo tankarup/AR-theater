@@ -1,5 +1,5 @@
 # Blender MTL File: 'theater_union.blend'
-# Material Count: 17
+# Material Count: 18
 
 newmtl Material
 Ns 323.999994
@@ -98,6 +98,18 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd -o 0.600000 0.050000 0.000000 -s 0.900000 3.099999 1.000000 sidewall.jpg
+
+newmtl sidewall2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd -o 0.100000 -0.600000 0.000000 -s 2.200000 4.200000 1.000000 sidewall.jpg
 
 newmtl sign_red
 Ns 225.000000
